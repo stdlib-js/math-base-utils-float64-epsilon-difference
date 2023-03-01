@@ -24,38 +24,30 @@ limitations under the License.
 
 > Compute the [relative difference][@stdlib/math/base/utils/relative-difference] of two real numbers in units of [double-precision floating-point epsilon][@stdlib/constants/float64/eps].
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-utils-float64-epsilon-difference
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-epsdiff = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-utils-float64-epsilon-difference@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var epsdiff = require( 'path/to/vendor/umd/math-base-utils-float64-epsilon-difference/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-utils-float64-epsilon-difference@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.epsdiff;
-})();
-</script>
+var epsdiff = require( '@stdlib/math-base-utils-float64-epsilon-difference' );
 ```
 
 #### epsdiff( x, y\[, scale] )
@@ -165,15 +157,10 @@ var d = epsdiff( 1.0000000000000002, 1.0000000000000100, scale ); // => ~44ε
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-utils-float64-epsilon-difference@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var EPS = require( '@stdlib/constants-float64-eps' );
+var epsdiff = require( '@stdlib/math-base-utils-float64-epsilon-difference' );
 
 var sign;
 var x;
@@ -188,11 +175,6 @@ for ( i = 0; i < 100; i++ ) {
     d = epsdiff( x, y );
     console.log( 'x = %d. y = %d. d = %dε.', x, y, d );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -207,8 +189,8 @@ for ( i = 0; i < 100; i++ ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/math/base/utils/absolute-difference`][@stdlib/math/base/utils/absolute-difference]</span><span class="delimiter">: </span><span class="description">compute the absolute difference of two real numbers.</span>
--   <span class="package-name">[`@stdlib/math/base/utils/relative-difference`][@stdlib/math/base/utils/relative-difference]</span><span class="delimiter">: </span><span class="description">compute the relative difference of two real numbers.</span>
+-   <span class="package-name">[`@stdlib/math-base/utils/absolute-difference`][@stdlib/math/base/utils/absolute-difference]</span><span class="delimiter">: </span><span class="description">compute the absolute difference of two real numbers.</span>
+-   <span class="package-name">[`@stdlib/math-base/utils/relative-difference`][@stdlib/math/base/utils/relative-difference]</span><span class="delimiter">: </span><span class="description">compute the relative difference of two real numbers.</span>
 
 </section>
 
@@ -283,17 +265,17 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-utils-float64-epsilon-difference/main/LICENSE
 
-[@stdlib/constants/float64/eps]: https://github.com/stdlib-js/constants-float64-eps/tree/umd
+[@stdlib/constants/float64/eps]: https://github.com/stdlib-js/constants-float64-eps
 
-[@stdlib/constants/float64/max]: https://github.com/stdlib-js/constants-float64-max/tree/umd
+[@stdlib/constants/float64/max]: https://github.com/stdlib-js/constants-float64-max
 
-[@stdlib/math/base/special/abs]: https://github.com/stdlib-js/math-base-special-abs/tree/umd
+[@stdlib/math/base/special/abs]: https://github.com/stdlib-js/math-base-special-abs
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/utils/absolute-difference]: https://github.com/stdlib-js/math-base-utils-absolute-difference/tree/umd
+[@stdlib/math/base/utils/absolute-difference]: https://github.com/stdlib-js/math-base-utils-absolute-difference
 
-[@stdlib/math/base/utils/relative-difference]: https://github.com/stdlib-js/math-base-utils-relative-difference/tree/umd
+[@stdlib/math/base/utils/relative-difference]: https://github.com/stdlib-js/math-base-utils-relative-difference
 
 <!-- </related-links> -->
 
