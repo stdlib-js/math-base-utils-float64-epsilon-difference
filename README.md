@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import epsdiff from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-utils-float64-epsilon-difference@deno/mod.js';
+import epsdiff from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-utils-float64-epsilon-difference@v0.1.0-deno/mod.js';
 ```
 
 #### epsdiff( x, y\[, scale] )
@@ -155,7 +155,7 @@ var d = epsdiff( 1.0000000000000002, 1.0000000000000100, scale ); // => ~44ε
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@deno/mod.js';
-import epsdiff from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-utils-float64-epsilon-difference@deno/mod.js';
+import epsdiff from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-utils-float64-epsilon-difference@v0.1.0-deno/mod.js';
 
 var sign;
 var x;
