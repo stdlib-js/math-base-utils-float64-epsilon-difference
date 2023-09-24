@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import epsdiff from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-utils-float64-epsilon-difference@esm/index.mjs';
+import epsdiff from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-utils-float64-epsilon-difference@v0.1.0-esm/index.mjs';
 ```
 
 #### epsdiff( x, y\[, scale] )
@@ -160,7 +160,7 @@ var d = epsdiff( 1.0000000000000002, 1.0000000000000100, scale ); // => ~44ε
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@esm/index.mjs';
-import epsdiff from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-utils-float64-epsilon-difference@esm/index.mjs';
+import epsdiff from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-utils-float64-epsilon-difference@v0.1.0-esm/index.mjs';
 
 var sign;
 var x;
