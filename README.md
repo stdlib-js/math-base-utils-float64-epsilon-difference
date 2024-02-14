@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import epsdiff from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-utils-float64-epsilon-difference@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-utils-float64-epsilon-difference/tags). For example,
+
+```javascript
 import epsdiff from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-utils-float64-epsilon-difference@v0.2.0-deno/mod.js';
 ```
 
@@ -155,7 +160,7 @@ var d = epsdiff( 1.0000000000000002, 1.0000000000000100, scale ); // => ~44ε
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@deno/mod.js';
-import epsdiff from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-utils-float64-epsilon-difference@v0.2.0-deno/mod.js';
+import epsdiff from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-utils-float64-epsilon-difference@deno/mod.js';
 
 var sign;
 var x;
