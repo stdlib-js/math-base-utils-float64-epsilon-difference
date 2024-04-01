@@ -41,7 +41,8 @@
     "@stdlib/constants-float64-max": "^0.2.1",
     "@stdlib/constants-float64-pinf": "^0.2.1",
     "@stdlib/math-base-assert-is-nan": "^0.2.1",
-    "@stdlib/math-base-utils-relative-difference": "^0.2.1"
+    "@stdlib/math-base-utils-relative-difference": "^0.2.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
   },
   "devDependencies": {
     "@stdlib/constants-float64-ninf": "^0.2.1",
