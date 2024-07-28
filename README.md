@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import epsdiff from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-utils-float64-epsilon-difference@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-utils-float64-epsilon-difference/tags). For example,
+
+```javascript
 import epsdiff from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-utils-float64-epsilon-difference@v0.2.2-esm/index.mjs';
 ```
 
@@ -160,7 +165,7 @@ var d = epsdiff( 1.0000000000000002, 1.0000000000000100, scale ); // => ~44ε
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@esm/index.mjs';
-import epsdiff from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-utils-float64-epsilon-difference@v0.2.2-esm/index.mjs';
+import epsdiff from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-utils-float64-epsilon-difference@esm/index.mjs';
 
 var sign;
 var x;
