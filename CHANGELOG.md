@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-23)
+## Unreleased (2026-06-03)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`fe585fe`](https://github.com/stdlib-js/stdlib/commit/fe585fe0bf3ddee24914752863757600da049f6a) - **docs:** document `@throws` for `math/base/utils/float64-epsilon-difference` [(#12465)](https://github.com/stdlib-js/stdlib/pull/12465) _(by Philipp Burckhardt)_
 -   [`8156d8e`](https://github.com/stdlib-js/stdlib/commit/8156d8e838de021a64886a2d4879ac898695389d) - **bench:** refactor to use string interpolation in `math/base/utils` [(#10473)](https://github.com/stdlib-js/stdlib/pull/10473) _(by Vishal Gaikwad)_
 
 </details>
@@ -24,8 +25,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Philipp Burckhardt
 -   Vishal Gaikwad
 
 </section>
